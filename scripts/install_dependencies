@@ -1,12 +1,15 @@
 #!/bin/bash
 yum install -y httpd
-npm install node
-npm install express
-npm install cors
-npm install body-parser
-npm install mongodb
-npm install mongoose
-npm install path
+yum install -y mongodb-org
+yum install -y nodejs
+node ../database/seedData.js
+# npm install node
+# npm install express
+# npm install cors
+# npm install body-parser
+# npm install mongodb
+# npm install mongoose
+# npm install path
 
 
 
